@@ -25,8 +25,8 @@ public class Stepdefs {
 
     public WebDriver driver;
     public DesiredCapabilities caps;
-    public String browserStackUserName = "BROWSERSTACK_USERNAME";
-    public String browserStackAutomateKey = "BROWSERSTACK_ACCESS_KEY",
+    public String browserStackUserName = "mukeshtiwari";
+    public String browserStackAutomateKey = "yRFpDrGLBnnuQKzUxqbz",
             url = "https://" + browserStackUserName + ":" + browserStackAutomateKey + "@hub.browserstack.com/wd/hub";
 
     @Before
